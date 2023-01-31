@@ -1,6 +1,6 @@
 import NavLogo from "./NavLogo";
 import NavMenu from "./NavMenu";
-import NavCart from "./NavCart";
+import CartWidget from "./CartWidget";
 
 function NavBar () {
     return (
@@ -8,7 +8,7 @@ function NavBar () {
         <div className="navbar">
             <NavLogo/>
             <NavMenu/>
-            <NavCart/>
+            <CartWidget/>
         </div>
         </>
     );

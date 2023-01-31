@@ -13,14 +13,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 50%;
 }
 
 .nav-menu ul{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 100%;
   margin: 5px 0;
 }
 
@@ -42,4 +40,13 @@
 
 .navbar-brand img{
   width: 80px;
+}
+
+.container{
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.txt-center{
+  text-align: center;
 }
