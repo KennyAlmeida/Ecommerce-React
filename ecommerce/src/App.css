@@ -50,3 +50,31 @@
 .txt-center{
   text-align: center;
 }
+
+.itemCount{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.itemCount button{
+  background-color: #17161d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.itemCount__counter{
+  display: flex;
+  justify-content: center;
+}
+
+.itemCount__counter button{
+  margin: 5px 0;
+}
+
+.itemCount__counter span{
+  padding: 5px 45px;
+}
