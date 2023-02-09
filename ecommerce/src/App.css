@@ -78,3 +78,13 @@
 .itemCount__counter span{
   padding: 5px 45px;
 }
+
+.container .row{
+  display: flex;
+  justify-content: center;
+}
+
+.card h1 {
+  text-align: center;
+  
+}
