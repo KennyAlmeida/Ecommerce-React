@@ -88,3 +88,39 @@
   text-align: center;
   
 }
+
+.container-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.card-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-details .card-image img{
+  width: 500px;
+  height: 500px;
+}
+
+.card-details .card-image img{
+  width: 500px;
+  height: 500px;
+}
+
+.card-details .card-content{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30px;
+}
