@@ -10,7 +10,7 @@ function App() {
     <>
       <NavBar/>
       <ItemListContainer titulo="Welcome to store"/>
-      <ItemDetailContainer/>
+      {/* <ItemDetailContainer/> */}
       
     </>
   );
