@@ -16,6 +16,11 @@ function ItemCount({ stock, initial, onAdd }) {
     }
   }
 
+  function onAdd(count) {
+    alert('Produto adicionado ao carrinho!')
+  }
+
+
   return (
     <div className="itemCount">
       <div className="itemCount__counter">
