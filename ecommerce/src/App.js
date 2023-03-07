@@ -3,7 +3,7 @@ import { Fragment } from 'react';
 import NavBar from './components/header/NavBar.js';
 import ItemListContainer from './components/ItemListContainer.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ItemCount from './components/ItemCount.js';
+import ItemCount from './components/itemCount/index.js';
 import ItemDetailContainer from './components/ItemDetailContainer.js';
 
 function App() {
